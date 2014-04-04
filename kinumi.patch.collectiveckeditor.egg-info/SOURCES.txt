@@ -12,3 +12,5 @@ kinumi.patch.collectiveckeditor.egg-info/top_level.txt
 kinumi/patch/__init__.py
 kinumi/patch/collectiveckeditor/__init__.py
 kinumi/patch/collectiveckeditor/tests.py
+kinumi/patch/collectiveckeditor/browser/__init__.py
+kinumi/patch/collectiveckeditor/browser/ckeditorfinder.py

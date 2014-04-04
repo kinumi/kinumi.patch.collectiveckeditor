@@ -1,17 +1,19 @@
 Metadata-Version: 1.1
 Name: kinumi.patch.collectiveckeditor
 Version: 1.0
-Summary: A patch product for collective.ckeditor.
-Home-page: http://svn.plone.org/svn/collective/
-Author: UNKNOWN
+Summary: A monkey-patch product for collective.ckeditor and collective.plonefinder.
+Home-page: https://github.com/kinumi/kinumi.patch.collectiveckeditor
+Author: kinumi.
 Author-email: UNKNOWN
 License: GPL
 Description: Introduction
         ============
         
+        A monkey-patch product for collective.ckeditor and collective.plonefinder.
         
-        
-        This product may contain traces of nuts.
+        - Links and images do not link by UID.
+        - There are no extra suffix behind the URL of images.
+          ("/image_thumb", "/image_preview", etc...)
         
         Changelog
         =========
@@ -21,6 +23,7 @@ Description: Introduction
         
         - Initial release
         
+Keywords: plone patch ckeditor plonefinder
 Platform: UNKNOWN
 Classifier: Framework :: Plone
 Classifier: Programming Language :: Python

@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='kinumi.patch.collectiveckeditor',
       version=version,
-      description="A patch product for collective.ckeditor.",
+      description="A monkey-patch product for collective.ckeditor and collective.plonefinder.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -14,10 +14,10 @@ setup(name='kinumi.patch.collectiveckeditor',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
+      keywords='plone patch ckeditor plonefinder',
+      author='kinumi.',
       author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      url='https://github.com/kinumi/kinumi.patch.collectiveckeditor',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['kinumi', 'kinumi.patch'],

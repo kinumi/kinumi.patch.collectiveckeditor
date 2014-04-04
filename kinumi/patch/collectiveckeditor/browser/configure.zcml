@@ -3,7 +3,4 @@
     xmlns:five="http://namespaces.zope.org/five"
     i18n_domain="kinumi.patch.collectiveckeditor">
 
-    <five:registerPackage package="." initialize=".initialize" />
-    <include package=".browser" />
-
 </configure>

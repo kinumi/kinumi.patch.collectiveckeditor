@@ -2,16 +2,17 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:browser="http://namespaces.zope.org/browser"
-    i18n_domain="collective.ckeditor">
+    i18n_domain="kinumi.patch.collectiveckeditor">
 
-	<include package="collective.ckeditor.browser" />
-	
-    <!-- ckeditor browser -->
     <browser:page
         name="plone_ckfinder"
         for="*"
-        class=".ckeditorfinder.CKFinder"
+        class=".browser.ckeditorfinder.CKFinder"
         permission="zope2.View"
-        />	
-
+        />
+    <browser:page
+        for="*"
+        name="findermacros"
+        permission="zope.Public"
+        template="./browser/finder.pt" />
 </configure>
