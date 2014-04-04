@@ -1,0 +1,14 @@
+README.txt
+setup.py
+kinumi/__init__.py
+kinumi.patch.collectiveckeditor.egg-info/PKG-INFO
+kinumi.patch.collectiveckeditor.egg-info/SOURCES.txt
+kinumi.patch.collectiveckeditor.egg-info/dependency_links.txt
+kinumi.patch.collectiveckeditor.egg-info/entry_points.txt
+kinumi.patch.collectiveckeditor.egg-info/namespace_packages.txt
+kinumi.patch.collectiveckeditor.egg-info/not-zip-safe
+kinumi.patch.collectiveckeditor.egg-info/requires.txt
+kinumi.patch.collectiveckeditor.egg-info/top_level.txt
+kinumi/patch/__init__.py
+kinumi/patch/collectiveckeditor/__init__.py
+kinumi/patch/collectiveckeditor/tests.py
