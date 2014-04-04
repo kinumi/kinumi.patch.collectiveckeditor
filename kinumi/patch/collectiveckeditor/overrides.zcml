@@ -1,0 +1,17 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ckeditor">
+
+	<include package="collective.ckeditor.browser" />
+	
+    <!-- ckeditor browser -->
+    <browser:page
+        name="plone_ckfinder"
+        for="*"
+        class=".ckeditorfinder.CKFinder"
+        permission="zope2.View"
+        />	
+
+</configure>
